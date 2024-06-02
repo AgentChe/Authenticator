@@ -74,13 +74,26 @@ private extension PaygateViewModel {
                 
                 return self.purchaseInteractor
                     .makeActiveSubscription(by: .buy(productId))
-                    .map { result -> Bool in
-                        switch result {
-                        case .completed(let response):
-                            return response
-                        case .cancelled:
-                            return false
+                    .asObservable()
+                    .flatMapLatest { result -> Observable<Bool> in
+                        let value: Bool = {
+                            switch result {
+                            case .completed(let response):
+                                return response
+                            case .cancelled:
+                                return false
+                            }
+                        }()
+                        
+                        if value {
+                            try? CryptoManager.shared.updateKeySettings()
                         }
+                        
+                        let success = AccountsManager()
+                            .reSave()
+                            .andThen(Observable.just(value))
+                        
+                        return value ? success : .just(value)
                     }
                     .trackActivity(self.activityIndicator)
                     .catchAndReturn(false)
@@ -99,13 +112,26 @@ private extension PaygateViewModel {
                 
                 return self.purchaseInteractor
                     .makeActiveSubscription(by: .restore)
-                    .map { result -> Bool in
-                        switch result {
-                        case .completed(let response):
-                            return response
-                        case .cancelled:
-                            return false
+                    .asObservable()
+                    .flatMapLatest { result -> Observable<Bool> in
+                        let value: Bool = {
+                            switch result {
+                            case .completed(let response):
+                                return response
+                            case .cancelled:
+                                return false
+                            }
+                        }()
+                        
+                        if value {
+                            try? CryptoManager.shared.updateKeySettings()
                         }
+                        
+                        let success = AccountsManager()
+                            .reSave()
+                            .andThen(Observable.just(value))
+                        
+                        return value ? success : .just(value)
                     }
                     .trackActivity(self.activityIndicator)
                     .catchAndReturn(false)

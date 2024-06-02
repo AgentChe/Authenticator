@@ -25,7 +25,7 @@ final class OnboardingViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        LocalAuthenticationManager().deletePassword()
         mainView.didFinish = { [weak self] in
             guard let self = self else {
                 return
@@ -33,8 +33,8 @@ final class OnboardingViewController: UIViewController {
             
             self.markAsViewed()
             
-            let step = self.viewModel.whatNext()
-            self.goToNext(at: step)
+//            let step = self.viewModel.whatNext()
+            self.goToNext(at: .password)
         }
     }
     
@@ -66,10 +66,17 @@ private extension OnboardingViewController {
     func goToNext(at step: OnboardingViewModel.Step) {
         switch step {
         case .main:
-            UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController = NavigationController(rootViewController: MainViewController.make()) 
+            let main = NavigationController(rootViewController: MainViewController.make())
+            main.setNavigationBarHidden(true, animated: false)
+            UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController = main
         case .paygate:
             let vc = PaygateViewController.make { [weak self] in
                 self?.goToNext(at: .main)
+            }
+            present(vc, animated: true)
+        case .password:
+            let vc = PasswordViewController.make { [weak self] in
+                self?.goToNext(at: .paygate)
             }
             present(vc, animated: true)
         }

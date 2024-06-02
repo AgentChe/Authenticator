@@ -7,6 +7,8 @@
 
 import UIKit
 import OtterScaleiOS
+import FirebaseCore
+import FirebaseFirestoreInternal
 
 @main
 final class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -21,6 +23,16 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         PurchaseValidationObserver.shared.startObserve()
         
         IAPManager.initialize()
+        
+        FirebaseApp.configure()
+        let db = Firestore.firestore()
+        let settings = db.settings
+        settings.cacheSettings = MemoryCacheSettings(garbageCollectorSettings: MemoryLRUGCSettings())
+//        settings.cacheSettings = PersistentCacheSettings()
+        
+        
+        db.settings = settings
+//        db.disableNetwork()
         
         return true
     }
