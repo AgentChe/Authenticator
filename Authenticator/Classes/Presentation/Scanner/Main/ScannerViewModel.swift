@@ -26,6 +26,7 @@ final class ScannerViewModel {
         case photoLibrary
         case files
         case manual
+        case showInfo
     }
     
     struct Input {
@@ -35,6 +36,7 @@ final class ScannerViewModel {
         let didTapOtherMethod: Signal<Void>
         let selectedPhoto: Signal<UIImage>
         let selectedFile: Signal<Data>
+        let didTapInfo: Signal<Void>
     }
     
     struct Output {
@@ -112,8 +114,9 @@ final class ScannerViewModel {
         let route = Signal
             .merge(
                 recognizeRoute,
-                input.didTapOtherMethod.map { _ in .otherMethod },
-                otherMethodsRoute
+                otherMethodsRoute,
+                input.didTapOtherMethod.map { .otherMethod },
+                input.didTapInfo.map { .showInfo}
             )
         
         return Output(

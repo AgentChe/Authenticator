@@ -26,13 +26,7 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         
         FirebaseApp.configure()
         let db = Firestore.firestore()
-        let settings = db.settings
-        settings.cacheSettings = MemoryCacheSettings(garbageCollectorSettings: MemoryLRUGCSettings())
-//        settings.cacheSettings = PersistentCacheSettings()
-        
-        
-        db.settings = settings
-//        db.disableNetwork()
+        db.disableNetwork()
         
         return true
     }

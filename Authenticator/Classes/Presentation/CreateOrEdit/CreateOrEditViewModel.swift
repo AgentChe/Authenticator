@@ -182,5 +182,6 @@ private extension TokenModel {
         self.algorithm = old?.algorithm ?? .sha256
         self.digits = old?.digits ?? 6
         self.period = old?.period ?? 30
+        self.serviceType = .init(rawValue: issuer.lowercased())
     }
 }

@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		861C8F322C183BFA00FB849C /* HowToSetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F2F2C183BFA00FB849C /* HowToSetupViewController.swift */; };
+		861C8F332C183BFA00FB849C /* HowToSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F302C183BFA00FB849C /* HowToSetupView.swift */; };
+		861C8F382C183CA200FB849C /* HowToSetupTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F372C183CA200FB849C /* HowToSetupTableView.swift */; };
+		861C8F3A2C183CBC00FB849C /* SetupServiceViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F392C183CBC00FB849C /* SetupServiceViewCell.swift */; };
+		861C8F3D2C183E3F00FB849C /* SetupServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F3C2C183E3F00FB849C /* SetupServiceModel.swift */; };
+		861C8F3F2C18903300FB849C /* Instruction.Default.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F3E2C18903300FB849C /* Instruction.Default.pdf */; };
+		861C8F462C18912900FB849C /* InstructionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F432C18912900FB849C /* InstructionViewController.swift */; };
+		861C8F472C18912900FB849C /* InstructionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 861C8F442C18912900FB849C /* InstructionView.swift */; };
+		861C8F512C18C11B00FB849C /* Instruction.Notion.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F492C18C11A00FB849C /* Instruction.Notion.pdf */; };
+		861C8F522C18C11B00FB849C /* Instruction.X.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4A2C18C11A00FB849C /* Instruction.X.pdf */; };
+		861C8F532C18C11B00FB849C /* Instruction.Facebook.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4B2C18C11A00FB849C /* Instruction.Facebook.pdf */; };
+		861C8F542C18C11B00FB849C /* Instruction.Instagram.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4C2C18C11A00FB849C /* Instruction.Instagram.pdf */; };
+		861C8F552C18C11B00FB849C /* Instruction.Microsoft.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4D2C18C11B00FB849C /* Instruction.Microsoft.pdf */; };
+		861C8F562C18C11B00FB849C /* Instruction.Dropbox.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4E2C18C11B00FB849C /* Instruction.Dropbox.pdf */; };
+		861C8F572C18C11B00FB849C /* Instruction.Reddit.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F4F2C18C11B00FB849C /* Instruction.Reddit.pdf */; };
+		861C8F582C18C11B00FB849C /* Instruction.Binance.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F502C18C11B00FB849C /* Instruction.Binance.pdf */; };
+		861C8F5A2C18C1E300FB849C /* Instruction.TikTok.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 861C8F592C18C1E200FB849C /* Instruction.TikTok.pdf */; };
 		86356C832BE6225B00FD1B14 /* CreateOrEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86356C822BE6225B00FD1B14 /* CreateOrEditViewController.swift */; };
 		86356C852BE6227000FD1B14 /* CreateOrEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86356C842BE6227000FD1B14 /* CreateOrEditView.swift */; };
 		86356C872BE6227D00FD1B14 /* CreateOrEditViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86356C862BE6227D00FD1B14 /* CreateOrEditViewModel.swift */; };
@@ -191,6 +208,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		861C8F2F2C183BFA00FB849C /* HowToSetupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSetupViewController.swift; sourceTree = "<group>"; };
+		861C8F302C183BFA00FB849C /* HowToSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSetupView.swift; sourceTree = "<group>"; };
+		861C8F372C183CA200FB849C /* HowToSetupTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToSetupTableView.swift; sourceTree = "<group>"; };
+		861C8F392C183CBC00FB849C /* SetupServiceViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupServiceViewCell.swift; sourceTree = "<group>"; };
+		861C8F3C2C183E3F00FB849C /* SetupServiceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupServiceModel.swift; sourceTree = "<group>"; };
+		861C8F3E2C18903300FB849C /* Instruction.Default.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Default.pdf; sourceTree = "<group>"; };
+		861C8F432C18912900FB849C /* InstructionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionViewController.swift; sourceTree = "<group>"; };
+		861C8F442C18912900FB849C /* InstructionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionView.swift; sourceTree = "<group>"; };
+		861C8F492C18C11A00FB849C /* Instruction.Notion.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Notion.pdf; sourceTree = "<group>"; };
+		861C8F4A2C18C11A00FB849C /* Instruction.X.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.X.pdf; sourceTree = "<group>"; };
+		861C8F4B2C18C11A00FB849C /* Instruction.Facebook.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Facebook.pdf; sourceTree = "<group>"; };
+		861C8F4C2C18C11A00FB849C /* Instruction.Instagram.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Instagram.pdf; sourceTree = "<group>"; };
+		861C8F4D2C18C11B00FB849C /* Instruction.Microsoft.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Microsoft.pdf; sourceTree = "<group>"; };
+		861C8F4E2C18C11B00FB849C /* Instruction.Dropbox.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Dropbox.pdf; sourceTree = "<group>"; };
+		861C8F4F2C18C11B00FB849C /* Instruction.Reddit.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Reddit.pdf; sourceTree = "<group>"; };
+		861C8F502C18C11B00FB849C /* Instruction.Binance.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.Binance.pdf; sourceTree = "<group>"; };
+		861C8F592C18C1E200FB849C /* Instruction.TikTok.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Instruction.TikTok.pdf; sourceTree = "<group>"; };
 		86356C822BE6225B00FD1B14 /* CreateOrEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditViewController.swift; sourceTree = "<group>"; };
 		86356C842BE6227000FD1B14 /* CreateOrEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditView.swift; sourceTree = "<group>"; };
 		86356C862BE6227D00FD1B14 /* CreateOrEditViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateOrEditViewModel.swift; sourceTree = "<group>"; };
@@ -390,6 +424,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		861C8F2E2C183BE200FB849C /* HowToSetup */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F422C18911600FB849C /* Instruction */,
+				861C8F3B2C183E2C00FB849C /* Models */,
+				861C8F412C18910200FB849C /* Main */,
+			);
+			path = HowToSetup;
+			sourceTree = "<group>";
+		};
+		861C8F352C183C7B00FB849C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F362C183C8200FB849C /* TableView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		861C8F362C183C8200FB849C /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F372C183CA200FB849C /* HowToSetupTableView.swift */,
+				861C8F392C183CBC00FB849C /* SetupServiceViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		861C8F3B2C183E2C00FB849C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F3C2C183E3F00FB849C /* SetupServiceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		861C8F402C18908200FB849C /* Instruction */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F592C18C1E200FB849C /* Instruction.TikTok.pdf */,
+				861C8F492C18C11A00FB849C /* Instruction.Notion.pdf */,
+				861C8F4D2C18C11B00FB849C /* Instruction.Microsoft.pdf */,
+				861C8F502C18C11B00FB849C /* Instruction.Binance.pdf */,
+				861C8F4E2C18C11B00FB849C /* Instruction.Dropbox.pdf */,
+				861C8F4A2C18C11A00FB849C /* Instruction.X.pdf */,
+				861C8F4C2C18C11A00FB849C /* Instruction.Instagram.pdf */,
+				861C8F4B2C18C11A00FB849C /* Instruction.Facebook.pdf */,
+				861C8F4F2C18C11B00FB849C /* Instruction.Reddit.pdf */,
+				861C8F3E2C18903300FB849C /* Instruction.Default.pdf */,
+			);
+			path = Instruction;
+			sourceTree = "<group>";
+		};
+		861C8F412C18910200FB849C /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F352C183C7B00FB849C /* Views */,
+				861C8F2F2C183BFA00FB849C /* HowToSetupViewController.swift */,
+				861C8F302C183BFA00FB849C /* HowToSetupView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		861C8F422C18911600FB849C /* Instruction */ = {
+			isa = PBXGroup;
+			children = (
+				861C8F432C18912900FB849C /* InstructionViewController.swift */,
+				861C8F442C18912900FB849C /* InstructionView.swift */,
+			);
+			path = Instruction;
+			sourceTree = "<group>";
+		};
 		86356C812BE6224000FD1B14 /* CreateOrEdit */ = {
 			isa = PBXGroup;
 			children = (
@@ -879,6 +984,7 @@
 		DEDF91D62BD99DCF004340C0 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				861C8F402C18908200FB849C /* Instruction */,
 				DEDF92972BD99E16004340C0 /* Fonts */,
 				DEDF929A2BD99E16004340C0 /* Strings */,
 				DEDF91CB2BD99B56004340C0 /* Assets.xcassets */,
@@ -1120,6 +1226,7 @@
 		DEDF922F2BD99E09004340C0 /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				861C8F2E2C183BE200FB849C /* HowToSetup */,
 				868FE1182BF53F9E0025012A /* Authentication */,
 				86356CBE2BEE74F900FD1B14 /* Password */,
 				86356C812BE6224000FD1B14 /* CreateOrEdit */,
@@ -1321,13 +1428,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				861C8F3F2C18903300FB849C /* Instruction.Default.pdf in Resources */,
 				DEDF92A72BD99F2D004340C0 /* Inter-Black.ttf in Resources */,
+				861C8F562C18C11B00FB849C /* Instruction.Dropbox.pdf in Resources */,
 				DEDF92A82BD99F2D004340C0 /* Inter-Bold.ttf in Resources */,
 				868FE1142BF4E5810025012A /* GoogleService-Info.plist in Resources */,
+				861C8F552C18C11B00FB849C /* Instruction.Microsoft.pdf in Resources */,
+				861C8F5A2C18C1E300FB849C /* Instruction.TikTok.pdf in Resources */,
 				DEDF92A92BD99F2D004340C0 /* Inter-Medium.ttf in Resources */,
 				DEDF92AA2BD99F2D004340C0 /* Inter-Regular.ttf in Resources */,
 				DEDF92AB2BD99F2D004340C0 /* Inter-SemiBold.ttf in Resources */,
+				861C8F582C18C11B00FB849C /* Instruction.Binance.pdf in Resources */,
+				861C8F532C18C11B00FB849C /* Instruction.Facebook.pdf in Resources */,
+				861C8F522C18C11B00FB849C /* Instruction.X.pdf in Resources */,
+				861C8F512C18C11B00FB849C /* Instruction.Notion.pdf in Resources */,
+				861C8F542C18C11B00FB849C /* Instruction.Instagram.pdf in Resources */,
 				DEDF91CC2BD99B56004340C0 /* Assets.xcassets in Resources */,
+				861C8F572C18C11B00FB849C /* Instruction.Reddit.pdf in Resources */,
 				DEDF92A02BD99E16004340C0 /* Localizable.strings in Resources */,
 				DEDF91CF2BD99B56004340C0 /* Base in Resources */,
 			);
@@ -1441,6 +1558,7 @@
 				DEDF92792BD99E09004340C0 /* OnboardingViewModel.swift in Sources */,
 				86356C832BE6225B00FD1B14 /* CreateOrEditViewController.swift in Sources */,
 				865770902BDAC8F300EBF855 /* MenuViewController.swift in Sources */,
+				861C8F462C18912900FB849C /* InstructionViewController.swift in Sources */,
 				865770D52BDE932000EBF855 /* DetectedAccountCollectionView.swift in Sources */,
 				DEDF927B2BD99E09004340C0 /* DefaultPaygate.swift in Sources */,
 				865770CE2BDE919800EBF855 /* DetectedAccountViewController.swift in Sources */,
@@ -1492,12 +1610,14 @@
 				DEDF92B22BDAACF4004340C0 /* TryAgainView.swift in Sources */,
 				DEDF92642BD99E09004340C0 /* Fonts.swift in Sources */,
 				865770BC2BDBDBD800EBF855 /* AccountAction.swift in Sources */,
+				861C8F322C183BFA00FB849C /* HowToSetupViewController.swift in Sources */,
 				DEDF92552BD99E09004340C0 /* UIApplication+Extension.swift in Sources */,
 				865770C22BDC0BAC00EBF855 /* ScannerViewModel.swift in Sources */,
 				DEDF92832BD99E09004340C0 /* SplashReceiptValidationObserver.swift in Sources */,
 				DEDF92902BD99E09004340C0 /* SessionManager.swift in Sources */,
 				86356CD82BF0EF8E00FD1B14 /* BiometricView.swift in Sources */,
 				864DB13F2BFA3CE900FEE45F /* SearchTableView.swift in Sources */,
+				861C8F332C183BFA00FB849C /* HowToSetupView.swift in Sources */,
 				DEDF92782BD99E09004340C0 /* OnboardingViewController.swift in Sources */,
 				DEDF925E2BD99E09004340C0 /* PushNotificationsAuthorizationStatus.swift in Sources */,
 				DEDF927C2BD99E09004340C0 /* PaygateOptionInfo.swift in Sources */,
@@ -1506,6 +1626,7 @@
 				8657708D2BDAC8E400EBF855 /* ScannerViewController.swift in Sources */,
 				86356C872BE6227D00FD1B14 /* CreateOrEditViewModel.swift in Sources */,
 				8657709F2BDBBFDB00EBF855 /* SectionTitleCell.swift in Sources */,
+				861C8F472C18912900FB849C /* InstructionView.swift in Sources */,
 				86356CB22BEE148800FD1B14 /* MenuOneLabelActionCell.swift in Sources */,
 				865770E52BDEA7D100EBF855 /* OtherMethodsViewController.swift in Sources */,
 				86356C982BEAAE2600FD1B14 /* CreateOrEditSection.swift in Sources */,
@@ -1525,6 +1646,7 @@
 				865770922BDBBF2700EBF855 /* AccountsView.swift in Sources */,
 				86356CB72BEE2B1600FD1B14 /* MenuCollectionHeaderView.swift in Sources */,
 				86356CB92BEE386F00FD1B14 /* MenuBiometricCell.swift in Sources */,
+				861C8F3A2C183CBC00FB849C /* SetupServiceViewCell.swift in Sources */,
 				DEDF92432BD99E09004340C0 /* AmplitudeManager.swift in Sources */,
 				DEDF928C2BD99E09004340C0 /* IAPProduct.swift in Sources */,
 				DEDF92862BD99E09004340C0 /* Paygate.swift in Sources */,
@@ -1539,6 +1661,7 @@
 				868FE1122BF4CC340025012A /* HelperManager.swift in Sources */,
 				865770BE2BDBDC1B00EBF855 /* LearnMoreHeaderView.swift in Sources */,
 				DEDF92562BD99E09004340C0 /* UIColor+Extension.swift in Sources */,
+				861C8F3D2C183E3F00FB849C /* SetupServiceModel.swift in Sources */,
 				865770F82BDFDE8700EBF855 /* WrongQRCodeViewController.swift in Sources */,
 				DEDF92692BD99E09004340C0 /* TextAttributes.swift in Sources */,
 				DEDF92AE2BDAA366004340C0 /* OPageIndicatorView.swift in Sources */,
@@ -1551,6 +1674,7 @@
 				865771022BE0F76600EBF855 /* AddBackupCodeViewController.swift in Sources */,
 				DEDF92842BD99E09004340C0 /* SplashView.swift in Sources */,
 				86356CCB2BF0E5BC00FD1B14 /* PasswordAlertView.swift in Sources */,
+				861C8F382C183CA200FB849C /* HowToSetupTableView.swift in Sources */,
 				865770BA2BDBDB9A00EBF855 /* AccountsViewModel.swift in Sources */,
 				865770952BDBBF5A00EBF855 /* AccountsTableView.swift in Sources */,
 			);
@@ -1709,6 +1833,9 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Authenticator/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
@@ -1744,6 +1871,9 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Authenticator/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "";
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;

@@ -33,6 +33,7 @@ extension AccountInfoCell {
         subtitleView.isHidden = model.userName.isEmpty
         titleView.attributedText = model.issuer.attributed(with: .titleAttrs)
         subtitleView.attributedText = model.userName.attributed(with: .subtitleAttrs)
+        iconView.image = model.serviceType?.icon ?? UIImage(named: "Accounts.IconPlaceholder")
     }
 }
 
@@ -78,7 +79,6 @@ private extension AccountInfoCell {
     
     func makeImage() -> UIImageView {
         let view = UIImageView()
-        view.image = UIImage(named: "Accounts.IconPlaceholder")
         view.layer.cornerRadius = 8.scale
         view.translatesAutoresizingMaskIntoConstraints = false
         contentView.addSubview(view)

@@ -147,3 +147,6 @@
 
 // MARK: Toast
 "Toast.Passcode" = "Passcode copied";
+
+//MARK: How to
+"HowTo.Default" = "Authenticator App as your main 2FA option";

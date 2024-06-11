@@ -54,7 +54,8 @@ class ScannerViewController: UIViewController {
             selectedMethod: selectedMethodRelay.asSignal(),
             didTapOtherMethod: mainView.otherMethodsButton.rx.tap.asSignal(), 
             selectedPhoto: selectetPhotoRelay.asSignal(), 
-            selectedFile: selectedFileRelay.asSignal()
+            selectedFile: selectedFileRelay.asSignal(), 
+            didTapInfo: mainView.infoButton.rx.tap.asSignal()
         ))
         
         output.route
@@ -78,6 +79,8 @@ private extension ScannerViewController {
             showFilesPicker()
         case .manual:
             showManual()
+        case .showInfo:
+            showInfo()
         }
     }
     
@@ -125,6 +128,11 @@ private extension ScannerViewController {
     
     func showManual() {
         let vc = CreateOrEditViewController.make(tokenModel: nil)
+        present(vc, animated: true)
+    }
+    
+    func showInfo() {
+        let vc = HowToSetupViewController.make()
         present(vc, animated: true)
     }
 }

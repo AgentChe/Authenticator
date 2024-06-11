@@ -19,6 +19,7 @@ final class AccountsViewModel {
         case search([TOTPModel])
         case setupPassword
         case error(Error)
+        case learnMore
     }
     
     struct Input {
@@ -155,6 +156,7 @@ extension AccountsViewModel {
         let route = Signal.merge(
             input.didTapAccountMore.map { .action($0.model) },
             input.didTapAdd.map { .scan },
+            input.didTapLearnMore.map { .learnMore },
             actionRoute,
             itemRoute,
             errorRoute

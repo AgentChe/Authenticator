@@ -51,7 +51,8 @@ private extension MenuViewController {
     }
     
     func showLearnMore() {
-        
+        let vc = HowToSetupViewController.make()
+        present(vc, animated: true)
     }
     
     func showPassword() {

@@ -79,6 +79,8 @@ private extension AccountsViewController {
             showPassword()
         case let .error(error):
             showError(error: error)
+        case .learnMore:
+            showLearnMore()
         }
     }
     
@@ -132,6 +134,11 @@ private extension AccountsViewController {
     func showError(error: Error) {
         let vc = TryAgainViewController.make(error: error)
         vc.modalPresentationStyle = .fullScreen
+        present(vc, animated: true)
+    }
+    
+    func showLearnMore() {
+        let vc = HowToSetupViewController.make()
         present(vc, animated: true)
     }
 }

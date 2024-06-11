@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>NSFaceIDUsageDescription</key>
-	<string>Разрешение на использование FaceID</string>
-	<key>NSCameraUsageDescription</key>
-	<string>Разрешение на использование камеры</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Разрешение для фотографий</string>
 	<key>FacebookAppID</key>
 	<string></string>
 	<key>FacebookClientToken</key>

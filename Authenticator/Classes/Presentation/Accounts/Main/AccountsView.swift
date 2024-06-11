@@ -32,6 +32,7 @@ final class AccountsView: UIView {
     
     func updateConstraint(isShow: Bool) {
         if !isShow {
+            tableTopConstraint?.isActive = false
             tableTopConstraint = tableView.topAnchor.constraint(equalTo: safeAreaLayoutGuide.topAnchor, constant: 12.scale)
             tableTopConstraint?.isActive = true
             UIView.animate(withDuration: 0.2) {

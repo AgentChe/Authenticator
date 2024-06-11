@@ -101,8 +101,8 @@ extension DetectedAccountViewModel {
         let saveRoute = input.didTapSave
             .asObservable()
             .withLatestFrom(currentToken)
-            .flatMapLatest { token -> Observable<Route> in
-                AccountsManager()
+            .flatMapLatest { [accountsManager] token -> Observable<Route> in
+                return accountsManager
                     .save(token: token)
                     .andThen(.just(true))
                     .catchAndReturn(false)

@@ -16,6 +16,7 @@ struct TokenModel: Hashable {
     let digits: Int
     let period: Int
     var backupCodes: [String] = []
+    let serviceType: SetupServiceModel?
     
     enum Algorithm: String, Codable {
         case sha1 = "SHA1"
@@ -32,6 +33,7 @@ struct TokenModel: Hashable {
         self.digits = digits
         self.period = period
         self.backupCodes = backupCodes
+        self.serviceType = .init(rawValue: issuer.lowercased())
     }
 }
 
@@ -65,6 +67,7 @@ extension TokenModel {
             .flatMap { TokenModel.Algorithm(rawValue: $0) } ?? .sha256
         self.period = queryItems.first(where: { $0.name == "period"})?.value.flatMap { Int($0) } ?? 30
         self.digits = queryItems.first(where: { $0.name == "digits"})?.value.flatMap { Int($0) } ?? 6
+        self.serviceType = .init(rawValue: issuer.lowercased())
     }
 }
 
@@ -90,7 +93,7 @@ extension TokenModel: Codable {
         digits = try values.decode(Int.self, forKey: .digits)
         period = try values.decode(Int.self, forKey: .period)
         backupCodes = try values.decode([String].self, forKey: .backupCodes)
-        
+        serviceType = .init(rawValue: issuer.lowercased())
     }
     
     func encode(to encoder: Encoder) throws {
