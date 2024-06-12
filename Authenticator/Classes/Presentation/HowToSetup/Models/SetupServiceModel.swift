@@ -9,7 +9,7 @@ import Foundation
 import UIKit
 
 enum SetupServiceModel: String, CaseIterable {
-    case `default`
+//    case `default`
     case tiktok
     case notion
     case microsoft
@@ -24,8 +24,8 @@ enum SetupServiceModel: String, CaseIterable {
 extension SetupServiceModel {
     var name: String {
         switch self {
-        case .default:
-            return "HowTo.Default".localized
+//        case .default:
+//            return "HowTo.Default".localized
         case .tiktok:
             return "TikTok"
         case .notion:
@@ -49,8 +49,8 @@ extension SetupServiceModel {
     
     var icon: UIImage? {
         switch self {
-        case .default:
-            return UIImage(named: "Services.Default")
+//        case .default:
+//            return UIImage(named: "Services.Default")
         case .tiktok:
             return UIImage(named: "Services.TikTok")
         case .notion:
@@ -74,8 +74,8 @@ extension SetupServiceModel {
     
     var documentName: String {
         switch self {
-        case .default:
-            return "Instruction.Default"
+//        case .default:
+//            return "Instruction.Default"
         case .tiktok:
             return "Instruction.TikTok"
         case .notion:
