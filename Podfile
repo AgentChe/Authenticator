@@ -21,6 +21,9 @@ target 'Authenticator' do
   pod 'Branch'
   pod 'Firebase/Analytics'
   pod 'Firebase/Messaging'
+  pod 'FirebaseFirestore'
+  
+  pod 'Toast-Swift'
 end
 
 post_install do |installer|

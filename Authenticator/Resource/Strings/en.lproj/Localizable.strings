@@ -10,6 +10,9 @@
 "Cancel" = "Cancel";
 "Continue" = "Continue";
 "Next" = "Next";
+"Passcode" = "Passcode";
+"Search" = "Search";
+"Save" = "Save";
 
 // MARK: ImagePicker
 "ImagePicker.TakePhoto" = "Take a photo";
@@ -55,3 +58,95 @@
 "TryAgain.SubTitle" = "If there’s a connection issue on your side try one more time. If the connection is fine and the error keeps on repeating please get in touch with the support";
 "TryAgain.Button" = "Try again";
 "TryAgain.Contact" = "Contact the support";
+
+// MARK: Main
+"Main.Accounts" = "Accounts";
+"Main.Scan" = "Add code";
+"Main.Menu" = "Menu";
+
+// MARK: Accounts
+"Accounts.EmptyTitle" = "No 2FA codes";
+"Accounts.EmptySubtitle" = "You haven’t set up any 2FA code yet. Tap the Plus button below to get started";
+"Accounts.PasswordTitle" = "Set up password";
+"Accounts.PasswordSubtitle" = "You’ll need this to securely save the account";
+"Accounts.HowToSetup" = "How to set up 2FA codes?";
+"Accounts.LearnMore" = "Learn more";
+"Accounts.EditAction" = "Edit";
+"Accounts.DeleteAction" = "Delete";
+
+// MARK: Scan
+"Scan.Add" = "Add Backup Code";
+"Scan.AddTitle" = "Backup Codes";
+"Scan.OtherMethods" = "Other methods";
+"Scan.Manual" = "Enter manually";
+"Scan.Photo" = "Import from Photos";
+"Scan.File" = "Import from Files";
+"Scan.WrongQRTitle" = "Invalid QR code";
+"Scan.WrongQRSubtitle" = "The provided QR code is invalid. Please make sure you are using the correct code";
+"Scan.WrongQRAction" = "Got it";
+"Scan.AddCodeTitle" = "Add backup code";
+"Scan.AccountAdded" = "Account added";
+
+// MARK: CreateOrEdit
+"CreateOrEdit.CreateTilte" = "Enter manually";
+"CreateOrEdit.EditTilte" = "Edit account";
+"CreateOrEdit.Account" = "Account";
+"CreateOrEdit.AccountExample" = "e.g. Instagram";
+"CreateOrEdit.Name" = "Name";
+"CreateOrEdit.NameExample" = "e.g. example@example.com";
+"CreateOrEdit.Key" = "Service Key";
+
+// MARK: Delete
+"Delete.Title" = "Delete this account";
+"Delete.Subtitle" = "Are you sure? The account will have to add again";
+"Delete.Delete" = "Delete";
+"Delete.Cancel" = "Cancel";
+
+// MARK: Menu
+"Menu.Title" = "Menu";
+"Menu.AccountSection" = "Account";
+"Menu.AboutSection" = "About";
+"Menu.SetPassword" = "Set up password";
+"Menu.ChangePassword" = "Change password";
+"Menu.FaceID" = "Face ID";
+"Menu.TouchID" = "Touch ID";
+"Menu.FaceIDSubtitle" = "Instead of entering the app password you can enable biometric app login";
+"Menu.TouchIDSubtitle" = "Instead of entering the app password, you can enable to unlock with Touch ID";
+"Menu.PrivacyPolicy" = "Privacy Policy";
+"Menu.TermsOfUse" = "Terms of Use";
+"Menu.ContactUs" = "Contact us";
+"Menu.LearnMore" = "Learn more";
+"Menu.LearnMoreTitle" = "How to set up 2FA codes?";
+
+// MARK: Password
+"Password.SetTitle" = "Set Password";
+"Password.ChangeTitle" = "Change password";
+"Password.ConfirmTitle" = "Confirm password";
+"Password.Subtitle" = "Choose a password that will be used to encrypt and securely save the accounts";
+"Password.Placeholder" = "Password";
+"Password.Next" = "Next";
+"Password.Skip" = "Skip";
+"Password.Message" = "Make sure you remember this password. If you forget it, you might lose access to your app";
+"Password.ConfirmError" = "Passwords do not match. Please try again.";
+
+// MARK: Biometric
+"Biometric.FaceID.Title" = "Want to use Face ID?";
+"Biometric.FaceID.Subtitle" = "Use Face ID to sign in quickly and securely";
+"Biometric.FaceID.Action" = "Use Face ID";
+"Biometric.TouchID.Title" = "Want to use Touch ID?";
+"Biometric.TouchID.Subtitle" = "Use Touch ID to sign in quickly and securely";
+"Biometric.TouchID.Action" = "Use Touch ID";
+"Biometric.Skip" = "Maybe later";
+
+// MARK: Authentication
+"Authentication.Error" = "Your password is incorrect.";
+"Authentication.Placeholder" = "Enter your password";
+
+// MARK: Search
+"Search.Empty" = "No accounts found";
+
+// MARK: Toast
+"Toast.Passcode" = "Passcode copied";
+
+//MARK: How to
+"HowTo.Default" = "Authenticator App as your main 2FA option";

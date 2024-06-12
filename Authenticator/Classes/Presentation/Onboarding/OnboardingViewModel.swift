@@ -10,7 +10,7 @@ import RxCocoa
 
 final class OnboardingViewModel {
     enum Step {
-        case paygate, main
+        case paygate, main, password
     }
     
     private lazy var sessionManager = SessionManager()
