@@ -76,7 +76,7 @@ private extension OnboardingViewController {
             present(vc, animated: true)
         case .password:
             let vc = PasswordViewController.make { [weak self] in
-                self?.goToNext(at: .paygate)
+                self?.goToNext(at: SessionManager().hasActiveSubscriptions() ? .main : .paygate)
             }
             present(vc, animated: true)
         }
