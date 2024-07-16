@@ -59,12 +59,12 @@ private extension AuthenticationViewController {
         nc.setNavigationBarHidden(true, animated: false)
         
         if SessionManager().hasActiveSubscriptions() {
-            UIApplication.shared.keyWindow?.rootViewController = nc
+            UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController = nc
         } else {
             let vc = PaygateViewController.make {
-                UIApplication.shared.keyWindow?.rootViewController = nc
+                UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController = nc
             }
-            UIApplication.shared.keyWindow?.rootViewController = vc
+            UIApplication.shared.windows.filter { $0.isKeyWindow }.first?.rootViewController = vc
         }
     }
 }

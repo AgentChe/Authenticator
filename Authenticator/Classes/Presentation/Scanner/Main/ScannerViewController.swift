@@ -33,7 +33,9 @@ class ScannerViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if session?.isRunning != true {
-            session?.startRunning()
+            DispatchQueue.global(qos: .background).async { [weak self] in
+                self?.session?.startRunning()
+            }
         }
     }
 
