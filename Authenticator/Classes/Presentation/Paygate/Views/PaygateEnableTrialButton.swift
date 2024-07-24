@@ -83,7 +83,8 @@ private extension PaygateEnableTrialButton {
         let view = UISwitch()
         view.isUserInteractionEnabled = false
         view.onTintColor = UIColor(integralRed: 87, green: 206, blue: 74)
-        view.tintColor = Appearance.white.withAlphaComponent(0.3)
+        view.tintColor = UIColor.white.withAlphaComponent(0.3)
+        view.subviews.first?.subviews.first?.backgroundColor = UIColor.white.withAlphaComponent(0.3)
         view.thumbTintColor = UIColor.white
         view.translatesAutoresizingMaskIntoConstraints = false
         addSubview(view)
