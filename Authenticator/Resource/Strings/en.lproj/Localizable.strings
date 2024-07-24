@@ -31,27 +31,28 @@
 "Onboarding.Welcome3.SubTitle" = "Easy backup and restore of authentication codes";
 
 // MARK: Paygate
-"Paygate.Title" = "Unlock Premium Status";
-"Paygate.Cell1" = "Embrace 2-Code Authentication";
-"Paygate.Cell2" = "Effortless codes Backup and Restore";
-"Paygate.Cell3" = "All Your Accounts, One Safe Place";
-"Paygate.Info" = "Secured by the App Store. Cancel anytime.";
-"Paygate.TermsOfUse" = "Terms of Use";
-"Paygate.PrivacyPolicy" = "Privacy Policy";
-"Paygate.RestorePurchases" = "Restore Purchase";
-"Paygate.Failed" = "Failed to make purchase";
-"Paygate.Monthly.Name1" = "7 days for free";
-"Paygate.Monthly.Name2" = "Quick prep";
-"Paygate.Monthly.Bottom1" = "After 7-day trial";
-"Paygate.Monthly.Bottom2" = "Trial is over";
-"Paygate.Lifetime.Name" = "Lifetime";
-"Paygate.Lifetime.PriceDescription" = "\nIn terms of  1  year";
-"Paygate.Lifetime.BottomDescription" = "once";
-"Paygate.Discount" = "SAVE %i%%";
-"Paygate.Price.Period" = "month";
 "Paygate.Error.Title" = "Error";
 "Paygate.Error.Text" = "An error occurred during execution. Try later.";
 "Paygate.Error.Button" = "OK";
+"Paygate.Title" = "Upgrade Premium";
+"Paygate.Info1" = "Embrace 2-Code Authentication";
+"Paygate.Info2" = "Effortless codes Backup and Restore";
+"Paygate.Info3" = "All Your Accounts, One Safe Place";
+"Paygate.EnableFreeTrial" = "Enable Free Trial";
+"Paygate.FreeTrialEnabled" = "Free Trial Enabled";
+"Paygate.Yearly" = "Yearly";
+"Paygate.Yearly.Bottom" = "Just %@/year";
+"Paygate.PerWeek" = "per week";
+"Paygate.FreeTrialDays" = "3-day free trial";
+"Paygate.Then" = "then %@\n";
+"Paygate.Continue" = "Continue";
+"Paygate.TryFreeSubscribe" = "Try Free & Subscribe";
+"Paygate.CancelAnytime" = "Cancel Anytime";
+"Paygate.NoPaymentNow" = "No payment now";
+"Paygate.TermsOfUse" = "Terms of Use";
+"Paygate.PrivacyPolicy" = "Privacy Policy";
+"Paygate.RestorePurchases" = "Restore Purchases";
+"Paygate.BestOffer" = "⭐ Best Offer";
 
 // MARK: TryAgain
 "TryAgain.Title" = "The app failed to perform a request";

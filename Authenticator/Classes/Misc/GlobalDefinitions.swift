@@ -19,7 +19,7 @@ final class GlobalDefinitions {
     static let contactUsUrl = URL(string: "https://camplain-apps.com/contacts.html")!
     
     enum Paygate {
-        static let defaultLifetime = "app.iphone.authentificator.lifetime"
-        static let defaultMonthly = "app.iphone.authentificator.month"
+        static let yearly = "app.iphone.authentificator.yearly"
+        static let weekly = "app.iphone.authentificator.weekly"
     }
 }
