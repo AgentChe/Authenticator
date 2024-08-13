@@ -3,17 +3,17 @@
 <plist version="1.0">
 <dict>
 	<key>API_KEY</key>
-	<string>AIzaSyCImO5OA2pEw9B7M8XOGc8mw-ihh4uiF3k</string>
+	<string>AIzaSyD2b7Oc_HyONMpiOONnW1LEOO8Z0euIgTw</string>
 	<key>GCM_SENDER_ID</key>
-	<string>445076443442</string>
+	<string>682820098702</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>wed.Authenticator1</string>
+	<string>app.iphone.authentificator</string>
 	<key>PROJECT_ID</key>
-	<string>auth-a8b6e</string>
+	<string>authentificator-40e8c</string>
 	<key>STORAGE_BUCKET</key>
-	<string>auth-a8b6e.appspot.com</string>
+	<string>authentificator-40e8c.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -25,6 +25,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:445076443442:ios:d346c256a6982c2ba7472b</string>
+	<string>1:682820098702:ios:81f18b9025dd7b4bfa07df</string>
 </dict>
 </plist>
