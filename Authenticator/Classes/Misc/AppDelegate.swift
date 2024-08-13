@@ -25,7 +25,6 @@ final class AppDelegate: UIResponder, UIApplicationDelegate {
         
         IAPManager.initialize()
         
-        FirebaseApp.configure()
         let db = Firestore.firestore()
         db.disableNetwork()
         
