@@ -50,7 +50,7 @@ private extension SplashViewController {
             let vc = AuthenticationViewController.make()
             UIApplication.shared.keyWindow?.rootViewController = vc
         } else {
-            let vc = MainViewController.make()
+            let vc = MainViewController.make(requestReview: false)
             
             if SessionManager().hasActiveSubscriptions() {
                 UIApplication.shared.keyWindow?.rootViewController = vc

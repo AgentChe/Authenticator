@@ -55,7 +55,7 @@ extension AuthenticationViewController {
 // MARK: Private
 private extension AuthenticationViewController {
     func goNext() {
-        let nc = NavigationController(rootViewController: MainViewController.make())
+        let nc = NavigationController(rootViewController: MainViewController.make(requestReview: false))
         nc.setNavigationBarHidden(true, animated: false)
         
         if SessionManager().hasActiveSubscriptions() {
