@@ -133,7 +133,6 @@
 		DEDF91CC2BD99B56004340C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF91CB2BD99B56004340C0 /* Assets.xcassets */; };
 		DEDF91CF2BD99B56004340C0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DEDF91CE2BD99B56004340C0 /* Base */; };
 		DEDF92432BD99E09004340C0 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */; };
-		DEDF92442BD99E09004340C0 /* BranchManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91D82BD99E09004340C0 /* BranchManager.swift */; };
 		DEDF92452BD99E09004340C0 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91D92BD99E09004340C0 /* FacebookManager.swift */; };
 		DEDF92462BD99E09004340C0 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */; };
 		DEDF92472BD99E09004340C0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91DC2BD99E09004340C0 /* ImagePicker.swift */; };
@@ -339,7 +338,6 @@
 		DEDF91CE2BD99B56004340C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDF91D02BD99B56004340C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
-		DEDF91D82BD99E09004340C0 /* BranchManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BranchManager.swift; sourceTree = "<group>"; };
 		DEDF91D92BD99E09004340C0 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEDF91DC2BD99E09004340C0 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -1037,7 +1035,6 @@
 			isa = PBXGroup;
 			children = (
 				DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */,
-				DEDF91D82BD99E09004340C0 /* BranchManager.swift */,
 				DEDF91D92BD99E09004340C0 /* FacebookManager.swift */,
 				DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */,
 			);
@@ -1657,7 +1654,6 @@
 				DEDF92862BD99E09004340C0 /* Paygate.swift in Sources */,
 				DEDF92772BD99E09004340C0 /* OnboardingView.swift in Sources */,
 				DEDF92652BD99E09004340C0 /* NumberLaunches.swift in Sources */,
-				DEDF92442BD99E09004340C0 /* BranchManager.swift in Sources */,
 				868FE11D2BF53FB10025012A /* AuthenticationView.swift in Sources */,
 				865770A82BDBCCAE00EBF855 /* TOTPGenerator.swift in Sources */,
 				865770A42BDBCBCC00EBF855 /* Data+Extension.swift in Sources */,
@@ -1838,7 +1834,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1857,7 +1853,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.authentificator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1881,7 +1877,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 7;
+				CURRENT_PROJECT_VERSION = 8;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1900,7 +1896,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.3;
+				MARKETING_VERSION = 1.3.4;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.authentificator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
