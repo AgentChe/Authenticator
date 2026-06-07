@@ -132,7 +132,6 @@
 		DE314CE82C50E0FD00D3EFF2 /* PaygateViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE314CDC2C50E0FD00D3EFF2 /* PaygateViewModel.swift */; };
 		DEDF91CC2BD99B56004340C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEDF91CB2BD99B56004340C0 /* Assets.xcassets */; };
 		DEDF91CF2BD99B56004340C0 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DEDF91CE2BD99B56004340C0 /* Base */; };
-		DEDF92432BD99E09004340C0 /* AmplitudeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */; };
 		DEDF92452BD99E09004340C0 /* FacebookManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91D92BD99E09004340C0 /* FacebookManager.swift */; };
 		DEDF92462BD99E09004340C0 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */; };
 		DEDF92472BD99E09004340C0 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEDF91DC2BD99E09004340C0 /* ImagePicker.swift */; };
@@ -337,7 +336,6 @@
 		DEDF91CB2BD99B56004340C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEDF91CE2BD99B56004340C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEDF91D02BD99B56004340C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplitudeManager.swift; sourceTree = "<group>"; };
 		DEDF91D92BD99E09004340C0 /* FacebookManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacebookManager.swift; sourceTree = "<group>"; };
 		DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
 		DEDF91DC2BD99E09004340C0 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
@@ -1034,7 +1032,6 @@
 		DEDF91DB2BD99E09004340C0 /* Analytics */ = {
 			isa = PBXGroup;
 			children = (
-				DEDF91D72BD99E09004340C0 /* AmplitudeManager.swift */,
 				DEDF91D92BD99E09004340C0 /* FacebookManager.swift */,
 				DEDF91DA2BD99E09004340C0 /* FirebaseManager.swift */,
 			);
@@ -1464,9 +1461,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Authenticator/Pods-Authenticator-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Authenticator/Pods-Authenticator-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1649,7 +1650,6 @@
 				86356CB72BEE2B1600FD1B14 /* MenuCollectionHeaderView.swift in Sources */,
 				86356CB92BEE386F00FD1B14 /* MenuBiometricCell.swift in Sources */,
 				861C8F3A2C183CBC00FB849C /* SetupServiceViewCell.swift in Sources */,
-				DEDF92432BD99E09004340C0 /* AmplitudeManager.swift in Sources */,
 				DEDF928C2BD99E09004340C0 /* IAPProduct.swift in Sources */,
 				DEDF92862BD99E09004340C0 /* Paygate.swift in Sources */,
 				DEDF92772BD99E09004340C0 /* OnboardingView.swift in Sources */,
@@ -1834,7 +1834,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1853,7 +1853,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.4;
+				MARKETING_VERSION = 1.3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.authentificator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
@@ -1877,7 +1877,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 8;
+				CURRENT_PROJECT_VERSION = 9;
 				DEVELOPMENT_TEAM = "";
 				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = RXCT63549X;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
@@ -1896,7 +1896,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.4;
+				MARKETING_VERSION = 1.3.5;
 				PRODUCT_BUNDLE_IDENTIFIER = app.iphone.authentificator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
